@@ -1,0 +1,16 @@
+.p-card .p-card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #4F8EED;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.p-inputtext {
+    margin: 0;
+    width: 100%;
+}
+.p-password .p-component .p-inputwrapper {
+    width: 100% !important;
+}
