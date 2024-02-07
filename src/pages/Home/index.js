@@ -10,7 +10,7 @@ const Home = () => {
   const [value, setValue] = useState("");
   const [shortUrl, setShortUrl] = useState("");
   const navigate = useNavigate();
-  const domainName = "https://urlshortnerfrontend-taupe.vercel.app/";
+  const domainName = window.location.origin;
   const toast = useRef(null); // Ref for toast component
   const userString = localStorage.getItem("user");
   const UserName = userString ? JSON.parse(userString) : null;
