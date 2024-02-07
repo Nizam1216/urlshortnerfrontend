@@ -10,7 +10,7 @@ const Dashboard = () => {
   const navigate = useNavigate();
   const userString = localStorage.getItem("user");
   const User = userString ? JSON.parse(userString) : null;
-  const Domainname = "http://localhost:3000";
+  const Domainname = window.location.origin;
 
   useEffect(() => {
     const fetchData = async () => {
