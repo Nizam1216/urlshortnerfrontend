@@ -88,13 +88,13 @@ const Home = () => {
           {shortUrl && (
             <Card title="Shortened Equivalent of your Url" className="mt-5">
               <Link
-                to={`${domainName}/${shortUrl}`}
+                to={`https://urlshortnerfrontend-nizam.vercel.app/${shortUrl}`}
                 style={{
                   textDecoration: "none",
                   color: "green",
                   fontSize: "20px",
                 }}
-              >{`${domainName}/${shortUrl}`}</Link>
+              >{`https://urlshortnerfrontend-nizam.vercel.app/${shortUrl}`}</Link>
             </Card>
           )}
         </div>
