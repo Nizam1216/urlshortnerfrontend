@@ -36,7 +36,7 @@ const Dashboard = () => {
 
   const renderVisits = (rowData) => {
     if (rowData.clicks > 0) {
-      return rowData.clicks / 2;
+      return rowData.clicks / 1;
     } else {
       return 0;
     }
